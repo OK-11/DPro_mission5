@@ -1,6 +1,7 @@
 require_relative "shopping_app/seller"
 require_relative "shopping_app/item"
 require_relative "shopping_app/customer"
+require_relative "shopping_app/"
 
 seller = Seller.new("DICストア")
 10.times{ Item.new(1, "CPU", 40830, seller) }
